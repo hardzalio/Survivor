@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d654a6de19186a4db5be36049de7bce, type: 3}
+  m_Name: EnemyRanged
+  m_EditorClassIdentifier: 
+  name: Enemy
+  speed: 5
+  damage: 5
+  attackDelay: 1
+  strength: 1
+  maxHealth: 30
+  prefab: {fileID: 6282854560160582467, guid: 2f6cf578339c4142da8beb575a39d328, type: 3}
+  type: 1
+  attackRange: 10
+  gunData: {fileID: 11400000, guid: ea256d4fd9994007a89bfe63b33e09f5, type: 2}
